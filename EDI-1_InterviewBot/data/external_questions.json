@@ -1,0 +1,18 @@
+{
+  "cs": [
+    {
+      "question": "What is the difference between deep learning and machine learning?",
+      "ideal_answer": "Machine learning is a subset of AI that enables systems to learn from data. Deep learning is a subset of machine learning that uses multi-layered neural networks to analyze data. While traditional ML algorithms often require feature engineering, deep learning algorithms can automatically discover representations needed for detection or classification."
+    },
+    {
+      "question": "Explain the concept of virtual memory.",
+      "ideal_answer": "Virtual memory is a memory management technique that provides an idealized abstraction of the storage resources that are actually available on a given machine. It creates the illusion to users of a very large (main) memory by transparently using a combination of RAM and secondary storage (like hard disk). This allows programs to exceed the size of physical memory and provides memory protection."
+    }
+  ],
+  "ece": [
+    {
+      "question": "What is the difference between microprocessor and microcontroller?",
+      "ideal_answer": "A microprocessor is a CPU on a single chip that requires external components for memory and peripherals. A microcontroller is a complete computer on a single chip with CPU, memory, and peripherals. Microprocessors are used in general-purpose systems like PCs, while microcontrollers are used in embedded systems for specific control tasks."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+[
+  {
+    "timestamp": "2025-08-28T23:17:38.307410",
+    "topic": "Computer Science",
+    "total_score": 51.60790152329325,
+    "correct_count": 2,
+    "total_questions": 5,
+    "questions": [
+      {
+        "question": "What is the difference between process and thread?",
+        "ideal_answer": "A process is an independent program in execution with its own memory space, while a thread is a lightweight process that shares memory space with other threads in the same process. Processes are isolated from each other, whereas threads can easily communicate with each other. Creating a process is more resource-intensive than creating a thread. Multiple threads can exist within a single process."
+      },
+      {
+        "question": "Explain the concept of machine learning and its main types.",
+        "ideal_answer": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. The main types are: 1) Supervised learning (trained on labeled data), 2) Unsupervised learning (finds patterns in unlabeled data), 3) Reinforcement learning (learns through rewards and punishments), and 4) Semi-supervised learning (uses both labeled and unlabeled data)."
+      },
+      {
+        "question": "What is a binary search tree and what are its properties?",
+        "ideal_answer": "A binary search tree (BST) is a node-based binary tree data structure with the following properties: 1) The left subtree of a node contains only nodes with keys lesser than the node's key. 2) The right subtree of a node contains only nodes with keys greater than the node's key. 3) The left and right subtree each must also be a binary search tree. This structure allows efficient searching, insertion, and deletion operations."
+      },
+      {
+        "question": "Explain the OSI model and its layers.",
+        "ideal_answer": "The OSI (Open Systems Interconnection) model is a conceptual framework that divides network communications into seven layers: 1) Physical (transmission of raw bits), 2) Data Link (error detection/correction), 3) Network (routing), 4) Transport (end-to-end connections), 5) Session (manages connections), 6) Presentation (data translation/encryption), and 7) Application (network services to applications). Each layer serves the layer above it and is served by the layer below it."
+      },
+      {
+        "question": "Explain the difference between TCP and UDP protocols.",
+        "ideal_answer": "TCP (Transmission Control Protocol) is connection-oriented, reliable, and ensures ordered delivery of data with error checking. UDP (User Datagram Protocol) is connectionless, unreliable, and faster but doesn't guarantee delivery or order. TCP is used for applications requiring reliability like web browsing, while UDP is used for real-time applications like video streaming."
+      }
+    ],
+    "user_answers": [
+      "A process is an independent program with its own memory space, while a thread is a lightweight unit within a process that shares the same memory but executes independently.",
+      "Machine learning is a branch of artificial intelligence where systems learn patterns from data and improve performance without being explicitly programmed; its main types are supervised learning (learning from labeled data), unsupervised learning (finding hidden patterns in unlabeled data), and reinforcement learning (learning by interacting with an environment through rewards and penalties).",
+      "A Binary Search Tree (BST) is a special type of binary tree where each node can have at most two children, and the elements are arranged in a specific order: the left child of a node always contains a value smaller than the node, while the right child contains a value greater. Both left and right subtrees must also follow the same rule, and usually, duplicates are not allowed. This ordered structure makes searching, insertion, and deletion operations efficient, generally with a time complexity of O(log n) in balanced cases.",
+      "The OSI (Open Systems Interconnection) model is a framework that explains how data is transmitted across networks by dividing communication into seven layers. The Physical layer handles raw bit transmission, the Data Link layer ensures error-free data transfer between directly connected nodes, and the Network layer manages packet routing across networks. The Transport layer provides reliable delivery through error checking and flow control, while the Session layer manages communication sessions between applications. The Presentation layer takes care of data translation, encryption, and compression, and finally, the Application layer provides services like email, file transfer, and web browsing to end users.",
+      "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable data delivery with error checking, sequencing, and acknowledgments, making it suitable for applications like web browsing and emails, while UDP (User Datagram Protocol) is a connectionless, faster protocol that does not guarantee reliability or ordering, making it ideal for real-time applications like video streaming and online gaming."
+    ],
+    "scores": [
+      49.85139927549688,
+      67.1990885337395,
+      35.90284575366681,
+      44.419465647183806,
+      60.666708406379286
+    ],
+    "is_correct": [
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    "feedback": [
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ]
+    ]
+  },
+  {
+    "timestamp": "2025-08-29T22:42:18.332827",
+    "topic": "Computer Science",
+    "total_score": 55.375134124118176,
+    "correct_count": 5,
+    "total_questions": 5,
+    "questions": [
+      {
+        "question": "What is object-oriented programming and what are its main principles?",
+        "ideal_answer": "Object-oriented programming (OOP) is a programming paradigm based on the concept of objects. Its main principles are encapsulation, inheritance, polymorphism, and abstraction. Encapsulation bundles data and methods, inheritance allows classes to inherit properties, polymorphism enables different implementations, and abstraction hides complex implementation details."
+      },
+      {
+        "question": "Explain the concept of Big O notation and its importance.",
+        "ideal_answer": "Big O notation describes the performance or complexity of an algorithm by expressing how the runtime or space requirements grow as the input size grows. It's important because it helps compare algorithm efficiency independent of hardware. Common complexities include O(1) constant time, O(log n) logarithmic, O(n) linear, O(n\u00b2) quadratic, and O(2\u207f) exponential. It helps developers choose the most efficient algorithm for their needs."
+      },
+      {
+        "question": "Explain the OSI model and its layers.",
+        "ideal_answer": "The OSI (Open Systems Interconnection) model is a conceptual framework that divides network communications into seven layers: 1) Physical (transmission of raw bits), 2) Data Link (error detection/correction), 3) Network (routing), 4) Transport (end-to-end connections), 5) Session (manages connections), 6) Presentation (data translation/encryption), and 7) Application (network services to applications). Each layer serves the layer above it and is served by the layer below it."
+      },
+      {
+        "question": "What is cloud computing and what are its service models?",
+        "ideal_answer": "Cloud computing is the delivery of computing services over the internet. Its main service models are: 1) Infrastructure as a Service (IaaS) - provides virtualized computing resources, 2) Platform as a Service (PaaS) - provides platforms for developing and deploying applications, and 3) Software as a Service (SaaS) - provides software applications over the internet. Additional models include Function as a Service (FaaS) and Database as a Service (DBaaS)."
+      },
+      {
+        "question": "Explain the difference between TCP and UDP protocols.",
+        "ideal_answer": "TCP (Transmission Control Protocol) is connection-oriented, reliable, and ensures ordered delivery of data with error checking. UDP (User Datagram Protocol) is connectionless, unreliable, and faster but doesn't guarantee delivery or order. TCP is used for applications requiring reliability like web browsing, while UDP is used for real-time applications like video streaming."
+      }
+    ],
+    "user_answers": [
+      "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of \"objects,\" which represent real-world entities with attributes (data) and behaviors (functions). It helps in organizing code into reusable and modular components. The main principles of OOP are Encapsulation (bundling data and methods together while hiding implementation details), Abstraction (showing only essential features and hiding complexity), Inheritance (allowing one class to acquire properties and behaviors of another), and Polymorphism (ability of objects or methods to take many forms).",
+      "Big O notation is a way to describe the efficiency of an algorithm in terms of time or space complexity as the input size grows. It provides an upper bound on the growth rate of an algorithm, focusing on the worst-case scenario. Its importance lies in helping developers compare algorithms, predict performance, and choose the most efficient solution for large-scale problems.",
+      "The OSI (Open Systems Interconnection) model is a framework that defines how computers communicate over a network through seven layers: Physical (transmission of raw bits), Data Link (framing and error detection), Network (addressing and routing), Transport (reliable delivery), Session (managing communication sessions), Presentation (data translation, encryption, compression), and Application (user-level services like HTTP, FTP). It standardizes communication and ensures interoperability between systems.",
+      "Cloud computing is the delivery of computing services\u2014such as servers, storage, databases, networking, software, and analytics\u2014over the internet (\u201cthe cloud\u201d) on a pay-as-you-go basis, allowing users to access resources without managing physical hardware. Its main service models are: Infrastructure as a Service (IaaS), which provides virtualized hardware resources; Platform as a Service (PaaS), which offers a development environment and tools for building applications; and Software as a Service (SaaS), which delivers ready-to-use software applications over the internet.",
+      "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable data transfer with error checking, acknowledgments, and retransmission, making it suitable for applications like web browsing and email. UDP (User Datagram Protocol) is a connectionless protocol that sends data without guaranteeing delivery, order, or error correction, making it faster and better for real-time applications like video streaming, gaming, and VoIP."
+    ],
+    "scores": [
+      51.396621816647766,
+      40.22868980278327,
+      47.43669383444785,
+      66.3883620809035,
+      71.4253030858085
+    ],
+    "is_correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "feedback": [
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Well done! You covered the main points well.",
+        "You could structure your answer more clearly with better organization."
+      ]
+    ]
+  },
+  {
+    "timestamp": "2025-08-29T23:07:11.595866",
+    "topic": "Computer Science",
+    "total_score": 57.13528916131524,
+    "correct_count": 5,
+    "total_questions": 5,
+    "questions": [
+      {
+        "question": "Explain the concept of Big O notation and its importance.",
+        "ideal_answer": "Big O notation describes the performance or complexity of an algorithm by expressing how the runtime or space requirements grow as the input size grows. It's important because it helps compare algorithm efficiency independent of hardware. Common complexities include O(1) constant time, O(log n) logarithmic, O(n) linear, O(n\u00b2) quadratic, and O(2\u207f) exponential. It helps developers choose the most efficient algorithm for their needs."
+      },
+      {
+        "question": "What is cloud computing and what are its service models?",
+        "ideal_answer": "Cloud computing is the delivery of computing services over the internet. Its main service models are: 1) Infrastructure as a Service (IaaS) - provides virtualized computing resources, 2) Platform as a Service (PaaS) - provides platforms for developing and deploying applications, and 3) Software as a Service (SaaS) - provides software applications over the internet. Additional models include Function as a Service (FaaS) and Database as a Service (DBaaS)."
+      },
+      {
+        "question": "Explain the concept of machine learning and its main types.",
+        "ideal_answer": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. The main types are: 1) Supervised learning (trained on labeled data), 2) Unsupervised learning (finds patterns in unlabeled data), 3) Reinforcement learning (learns through rewards and punishments), and 4) Semi-supervised learning (uses both labeled and unlabeled data)."
+      },
+      {
+        "question": "What is a binary search tree and what are its properties?",
+        "ideal_answer": "A binary search tree (BST) is a node-based binary tree data structure with the following properties: 1) The left subtree of a node contains only nodes with keys lesser than the node's key. 2) The right subtree of a node contains only nodes with keys greater than the node's key. 3) The left and right subtree each must also be a binary search tree. This structure allows efficient searching, insertion, and deletion operations."
+      },
+      {
+        "question": "Explain the OSI model and its layers.",
+        "ideal_answer": "The OSI (Open Systems Interconnection) model is a conceptual framework that divides network communications into seven layers: 1) Physical (transmission of raw bits), 2) Data Link (error detection/correction), 3) Network (routing), 4) Transport (end-to-end connections), 5) Session (manages connections), 6) Presentation (data translation/encryption), and 7) Application (network services to applications). Each layer serves the layer above it and is served by the layer below it."
+      }
+    ],
+    "user_answers": [
+      "Big O notation is a way to describe the efficiency of an algorithm in terms of time or space complexity as the input size grows. It provides an upper bound on the growth rate of an algorithm, focusing on the worst-case scenario. Its importance lies in helping developers compare algorithms, predict performance, and choose the most efficient solution for large-scale problems.",
+      "Cloud computing is the delivery of computing services\u2014such as servers, storage, databases, networking, software, and analytics\u2014over the internet (\u201cthe cloud\u201d) on a pay-as-you-go basis, allowing users to access resources without managing physical hardware. Its main service models are: Infrastructure as a Service (IaaS), which provides virtualized hardware resources; Platform as a Service (PaaS), which offers a development environment and tools for building applications; and Software as a Service (SaaS), which delivers ready-to-use software applications over the internet.",
+      "Machine Learning (ML) is a branch of artificial intelligence that enables computers to learn patterns and make decisions from data without being explicitly programmed. Instead of following fixed rules, ML models improve their performance as they are exposed to more data. The main types of ML are: Supervised Learning, where models are trained on labeled data to predict outcomes; Unsupervised Learning, where models find hidden patterns or groupings in unlabeled data; and Reinforcement Learning, where an agent learns by interacting with an environment and receiving rewards or penalties for its actions.\n",
+      "A Binary Search Tree (BST) is a type of binary tree where each node has at most two children, and it is organized such that the left child of a node contains values smaller than the node, while the right child contains values greater than the node. Both left and right subtrees must also follow this rule, and usually no duplicate values are allowed. These properties make searching, insertion, and deletion efficient, typically taking O(log n) time in a balanced tree.",
+      "The OSI (Open Systems Interconnection) model is a standard framework that explains how data is transmitted between computers over a network. It has seven layers: the Physical layer (transmits raw bits), Data Link layer (framing and error detection), Network layer (routing and addressing), Transport layer (reliable delivery of data), Session layer (manages communication sessions), Presentation layer (data translation, encryption, compression), and Application layer (services for users like HTTP, FTP, email). Together, these layers ensure smooth and standardized communication across different systems."
+    ],
+    "scores": [
+      40.22868980278327,
+      66.3883620809035,
+      66.83863675874876,
+      44.92917566783256,
+      67.29158149630815
+    ],
+    "is_correct": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "feedback": [
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples."
+      ]
+    ]
+  },
+  {
+    "timestamp": "2025-09-04T21:10:30.525298",
+    "topic": "Computer Science",
+    "total_score": 18.138741511082348,
+    "correct_count": 0,
+    "total_questions": 5,
+    "questions": [
+      {
+        "question": "Explain the concept of machine learning and its main types.",
+        "ideal_answer": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. The main types are: 1) Supervised learning (trained on labeled data), 2) Unsupervised learning (finds patterns in unlabeled data), 3) Reinforcement learning (learns through rewards and punishments), and 4) Semi-supervised learning (uses both labeled and unlabeled data)."
+      },
+      {
+        "question": "Explain the OSI model and its layers.",
+        "ideal_answer": "The OSI (Open Systems Interconnection) model is a conceptual framework that divides network communications into seven layers: 1) Physical (transmission of raw bits), 2) Data Link (error detection/correction), 3) Network (routing), 4) Transport (end-to-end connections), 5) Session (manages connections), 6) Presentation (data translation/encryption), and 7) Application (network services to applications). Each layer serves the layer above it and is served by the layer below it."
+      },
+      {
+        "question": "Explain the difference between TCP and UDP protocols.",
+        "ideal_answer": "TCP (Transmission Control Protocol) is connection-oriented, reliable, and ensures ordered delivery of data with error checking. UDP (User Datagram Protocol) is connectionless, unreliable, and faster but doesn't guarantee delivery or order. TCP is used for applications requiring reliability like web browsing, while UDP is used for real-time applications like video streaming."
+      },
+      {
+        "question": "What is the difference between process and thread?",
+        "ideal_answer": "A process is an independent program in execution with its own memory space, while a thread is a lightweight process that shares memory space with other threads in the same process. Processes are isolated from each other, whereas threads can easily communicate with each other. Creating a process is more resource-intensive than creating a thread. Multiple threads can exist within a single process."
+      },
+      {
+        "question": "What is cloud computing and what are its service models?",
+        "ideal_answer": "Cloud computing is the delivery of computing services over the internet. Its main service models are: 1) Infrastructure as a Service (IaaS) - provides virtualized computing resources, 2) Platform as a Service (PaaS) - provides platforms for developing and deploying applications, and 3) Software as a Service (SaaS) - provides software applications over the internet. Additional models include Function as a Service (FaaS) and Database as a Service (DBaaS)."
+      }
+    ],
+    "user_answers": [
+      "msbsjgdsnjh nskhsihhna ",
+      "shdwyj xnsjdj layer",
+      "tcp and upd",
+      "process is bgdu and thread is  njgfjhk",
+      "cloud computing means "
+    ],
+    "scores": [
+      0.0,
+      17.368902045830836,
+      15.163243412726585,
+      38.04157738675915,
+      20.119984710095164
+    ],
+    "is_correct": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "feedback": [
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    ]
+  },
+  {
+    "timestamp": "2025-09-04T21:36:35.369400",
+    "topic": "Computer Science",
+    "total_score": 35.20875165881547,
+    "correct_count": 1,
+    "total_questions": 5,
+    "questions": [
+      {
+        "question": "What is cloud computing and what are its service models?",
+        "ideal_answer": "Cloud computing is the delivery of computing services over the internet. Its main service models are: 1) Infrastructure as a Service (IaaS) - provides virtualized computing resources, 2) Platform as a Service (PaaS) - provides platforms for developing and deploying applications, and 3) Software as a Service (SaaS) - provides software applications over the internet. Additional models include Function as a Service (FaaS) and Database as a Service (DBaaS)."
+      },
+      {
+        "question": "Explain the concept of machine learning and its main types.",
+        "ideal_answer": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. The main types are: 1) Supervised learning (trained on labeled data), 2) Unsupervised learning (finds patterns in unlabeled data), 3) Reinforcement learning (learns through rewards and punishments), and 4) Semi-supervised learning (uses both labeled and unlabeled data)."
+      },
+      {
+        "question": "What is the difference between SQL and NoSQL databases?",
+        "ideal_answer": "SQL databases are relational, table-based databases with predefined schema. They use SQL for querying and are vertically scalable. NoSQL databases are non-relational, document, key-value, graph, or wide-column stores. They have dynamic schema, are horizontally scalable, and are better for unstructured data. SQL databases provide ACID compliance while NoSQL follows CAP theorem."
+      },
+      {
+        "question": "Explain the concept of Big O notation and its importance.",
+        "ideal_answer": "Big O notation describes the performance or complexity of an algorithm by expressing how the runtime or space requirements grow as the input size grows. It's important because it helps compare algorithm efficiency independent of hardware. Common complexities include O(1) constant time, O(log n) logarithmic, O(n) linear, O(n\u00b2) quadratic, and O(2\u207f) exponential. It helps developers choose the most efficient algorithm for their needs."
+      },
+      {
+        "question": "What is the difference between process and thread?",
+        "ideal_answer": "A process is an independent program in execution with its own memory space, while a thread is a lightweight process that shares memory space with other threads in the same process. Processes are isolated from each other, whereas threads can easily communicate with each other. Creating a process is more resource-intensive than creating a thread. Multiple threads can exist within a single process."
+      }
+    ],
+    "user_answers": [
+      "cloud computing",
+      "mavchine learning",
+      "sql ",
+      "big o",
+      "process"
+    ],
+    "scores": [
+      28.36608239922012,
+      36.60294345739778,
+      37.228735815367486,
+      13.864774542403014,
+      59.981222079688976
+    ],
+    "is_correct": [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "feedback": [
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ],
+      [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    ]
+  }
+]

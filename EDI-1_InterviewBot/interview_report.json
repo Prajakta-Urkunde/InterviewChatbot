@@ -1,0 +1,92 @@
+{
+  "total_score": 35.20875165881547,
+  "correctness_percentage": 20.0,
+  "correct_count": 1,
+  "total_questions": 5,
+  "overall_feedback": "Needs improvement. Consider studying the fundamentals more thoroughly.",
+  "strengths": [
+    "Question 5: What is the difference between process and thread? (Score: 60.0%)"
+  ],
+  "weaknesses": [
+    "Question 1: What is cloud computing and what are its service m... (Score: 28.4%)",
+    "Question 2: Explain the concept of machine learning and its ma... (Score: 36.6%)",
+    "Question 3: What is the difference between SQL and NoSQL datab... (Score: 37.2%)",
+    "Question 4: Explain the concept of Big O notation and its impo... (Score: 13.9%)"
+  ],
+  "recommendations": [
+    "Focus on improving your understanding of these areas:",
+    "- Question 1: What is cloud computing and what are its service m... (Score: 28.4%)",
+    "- Question 2: Explain the concept of machine learning and its ma... (Score: 36.6%)",
+    "- Question 3: What is the difference between SQL and NoSQL datab... (Score: 37.2%)",
+    "Try to structure your answer with a clear introduction, body, and conclusion.",
+    "Include specific examples to strengthen your answer.",
+    "You answered 1 out of 5 questions correctly."
+  ],
+  "detailed_feedback": [
+    {
+      "question_number": 1,
+      "question": "What is cloud computing and what are its service models?",
+      "user_answer": "cloud computing",
+      "score": 28.36608239922012,
+      "is_correct": false,
+      "feedback": [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    },
+    {
+      "question_number": 2,
+      "question": "Explain the concept of machine learning and its main types.",
+      "user_answer": "mavchine learning",
+      "score": 36.60294345739778,
+      "is_correct": false,
+      "feedback": [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    },
+    {
+      "question_number": 3,
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "user_answer": "sql ",
+      "score": 37.228735815367486,
+      "is_correct": false,
+      "feedback": [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "You're on the right track but need to deepen your understanding.",
+        "Consider reviewing the fundamental concepts.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    },
+    {
+      "question_number": 4,
+      "question": "Explain the concept of Big O notation and its importance.",
+      "user_answer": "big o",
+      "score": 13.864774542403014,
+      "is_correct": false,
+      "feedback": [
+        "\u274c Your answer needs improvement. Let's work on this concept.",
+        "Your answer shows limited understanding of the topic.",
+        "Try to include more key concepts in your response.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    },
+    {
+      "question_number": 5,
+      "question": "What is the difference between process and thread?",
+      "user_answer": "process",
+      "score": 59.981222079688976,
+      "is_correct": true,
+      "feedback": [
+        "\u2705 Good answer! You've captured the main concepts.",
+        "Good attempt! You're close to a complete answer.",
+        "Try to provide more specific details and examples.",
+        "Your answer is quite brief. Try to elaborate more with examples."
+      ]
+    }
+  ]
+}
