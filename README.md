@@ -63,6 +63,3 @@ Large files such as ML models and virtual environments are not included in this 
 ## Purpose
 
 This project was developed to help students and job seekers practice interviews interactively and improve confidence using AI-based feedback.
-
-## Author
-Prajakta
